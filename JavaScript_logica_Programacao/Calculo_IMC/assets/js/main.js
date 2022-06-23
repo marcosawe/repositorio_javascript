@@ -66,3 +66,4 @@ function escopoLocal() {
         resultado.appendChild(p) // Adiciona p na div resultado
     };
 }
+escopoLocal()

@@ -10,4 +10,13 @@ for(let index in frutas){
     console.log(index);
 } 
 
-// iterando sobre objetos:
+// Iterando sobre objetos:
+const pessoas = {
+    nome:'Marcos Eduardo',
+    sobrenome:'Ferenandes',
+    idade:18,
+};
+
+for(let keys in pessoas){
+    console.log(keys, pessoas[keys]);
+}

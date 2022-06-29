@@ -7,5 +7,5 @@ console.log(estiloBackgroundColor)
 
 for(let p of ps){
     p.style.backgroundColor = estiloBackgroundColor; // Para adicionar estilo nas tags utilizamos a tag.style.nomeDaTagCss em camealCase
-    p.style.color = '#FFF'
+    p.style.color = '#FFFFFF'
 }

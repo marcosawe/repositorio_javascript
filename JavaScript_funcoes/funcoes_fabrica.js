@@ -1,4 +1,4 @@
-/* Factory Functions -> Funções que retornam objetos; */
+/* Factory Functions -> Funções que criam e retornam objetos; */
 
 // O this faz referência ao objeto do qual a função é uma propriedade. Em outras palavras, o this faz referência ao objeto que está chamando a função no momento.
 

@@ -4,6 +4,13 @@
 
 // Molde da função:
 function Pessoa(nome,sobrenome){
+
+    // Atributos ou métodos privados;
+    const altura = 1.67
+    const massa = 85
+    const IMC = massa/altura**2
+    console.log(IMC)
+    // Atributos ou métodos públicos;
     this.nome = nome;
     this.sobrenome = sobrenome;
 

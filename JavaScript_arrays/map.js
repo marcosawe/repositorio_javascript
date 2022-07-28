@@ -21,10 +21,26 @@ const pessoas = [
     {nome:'Elías', idade:34},
 ];
 
+// Separando o objeto nome e incubando o mesmo em um array
 const nomes = pessoas.map(valor=>{
     return valor.nome
 });
 
-const idades = pessoas.map(valores=>{
-    return valores.idade
+console.log(nomes)
+
+// Separando o objeto idade e incubando o mesmo em um array, juntamente com o índice.
+const idades = pessoas.map((valores,indice)=>{
+    return {idade:valores.idade, indice:indice}
 });
+
+console.log(idades)
+
+// Adicionando IDS em objetos
+const adicionandoIds = pessoas.map((obj,indice) =>{
+    // Evitando a mudança no array original
+    const newObject = {...obj}
+    newObject.id = indice;
+    return newObject;
+})
+console.log(pessoas)
+console.log(adicionandoIds)
